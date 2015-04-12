@@ -1,0 +1,88 @@
+<div class="row">
+	<div class="col-xs-6 col-xs-offset-3">
+		<status-translate status="status"></status-translate>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-6 col-xs-offset-3">
+
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h3 class="panel-title">Add new credit card</h3>
+			</div>
+
+			<form novalidate name="cardForm">
+
+				<div class="panel-body">
+
+					<div class="form-group">
+						<label>Card Number (no dashes or spaces)</label>
+
+						<input
+								type="text"
+								required
+								payments-validate="card"
+								payments-format="card"
+								ng-model="cardCard.number"
+								payments-type-model="type"
+								ng-class="myForm.number.$card.type"
+								class="form-control"
+								name="number"
+								placeholder="0000 0000 0000 0000">
+
+						<span ng-show="!cardForm.$valid && cardForm.submitted">
+							<span ng-show="cardForm.number.$error.required" class="text-danger">Card Number is required</span>
+							<span ng-show="cardForm.number.$error.card" class="text-danger">Card Number is invalid</span>
+						</span>
+					</div>
+
+					<div class="form-group">
+						<label>Name (as it appears on your card)</label>
+						<input type="text" required ng-model="cardCard.name" class="form-control" name="name" placeholder="Jon Do">
+						<span ng-show="!cardForm.$valid && cardForm.submitted">
+							<span ng-show="cardForm.name.$error.required" class="text-danger">Name is required</span>
+						</span>
+					</div>
+
+					<div class="form-group">
+						<label>Expiration date (MM/YY)</label>
+						<input
+								type="text"
+								required
+								payments-validate="expiry"
+								payments-format="expiry"
+								ng-model="cardCard.expiration"
+								class="form-control"
+								maxlength="7"
+								name="expiration"
+								placeholder="MM/YY">
+
+						<span ng-show="!cardForm.$valid && cardForm.submitted">
+							<span ng-show="cardForm.expiration.$error.required" class="text-danger">Expiration date is required</span>
+							<span ng-show="cardForm.expiration.$error.expiry" class="text-danger">Expiry is invalid</span>
+						</span>
+
+					</div>
+
+				</div>
+
+				<div class="panel-footer">
+
+					<button type="submit" ng-disabled="!cardForm.$valid" ng-click="cardForm.submitted=true; save();" class="btn btn-success">
+						<span class="glyphicon glyphicon-floppy-save"></span>&nbsp; Save
+					</button>
+
+					<button type="submit" ng-click="cardForm.submitted=true;" class="btn btn-info">
+						<span class="glyphicon glyphicon-refresh"></span>&nbsp; Validate
+					</button>
+
+				</div>
+
+			</form>
+
+		</div>
+
+	</div>
+</div>
