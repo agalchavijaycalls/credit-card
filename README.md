@@ -69,7 +69,7 @@
     - CardDto.java
     - CreditCardExpiry.java & CreditCardExpiryValidator.java
     
-  - How to prepare unit test base on Mockito
+  - How to prepare unit test base on [Mockito]
   
     - CardDtoValidationTest.java
   
@@ -86,6 +86,7 @@
 
 [AngularJS]:http://angularjs.org
 [Bootstrap]:http://getbootstrap.com/
+[Mockito]:http://mockito.org/
 [Btbw AngularJS]:http://www.blog.btbw.pl/category/java-script/angularjs/
 [Btbw Simple way to start with JAX-RS]:http://www.blog.btbw.pl/java/simple-way-to-start-with-jax-rs/
 [Btbw JSR 303: Bean Validation]:http://www.blog.btbw.pl/java/jsr-303-bean-validation/
