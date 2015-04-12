@@ -1,7 +1,7 @@
-package btbw.web.dto;
+package pl.btbw.web.dto;
 
 
-import btbw.web.service.ValidatorService;
+import pl.btbw.web.service.ValidatorService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

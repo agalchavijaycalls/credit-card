@@ -1,4 +1,4 @@
-package btbw.core.validator;
+package pl.btbw.core.validator;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

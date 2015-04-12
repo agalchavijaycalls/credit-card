@@ -1,4 +1,4 @@
-package btbw.web.dto;
+package pl.btbw.web.dto;
 
 public enum ResponseStatus {
 

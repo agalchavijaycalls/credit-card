@@ -1,4 +1,4 @@
-package btbw.web.filter;
+package pl.btbw.web.filter;
 
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerResponseContext;

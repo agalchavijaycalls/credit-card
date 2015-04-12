@@ -1,4 +1,4 @@
-package btbw.core.validator;
+package pl.btbw.core.validator;
 
 import java.lang.annotation.Documented;
 import static java.lang.annotation.ElementType.*;

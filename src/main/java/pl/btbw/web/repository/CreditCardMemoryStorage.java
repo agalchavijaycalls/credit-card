@@ -1,4 +1,4 @@
-package btbw.web.repository;
+package pl.btbw.web.repository;
 
 import javax.ejb.Singleton;
 import java.util.ArrayList;

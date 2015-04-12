@@ -1,9 +1,7 @@
 package pl.btbw.repository;
 
-
-import btbw.web.repository.Card;
-import btbw.web.repository.CreditCardMemoryStorage;
-import btbw.web.repository.CreditCardStorage;
+import pl.btbw.web.repository.Card;
+import pl.btbw.web.repository.CreditCardMemoryStorage;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

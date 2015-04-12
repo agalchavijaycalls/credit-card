@@ -1,4 +1,4 @@
-package btbw.web.service;
+package pl.btbw.web.service;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;

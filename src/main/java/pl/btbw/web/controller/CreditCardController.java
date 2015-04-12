@@ -1,11 +1,11 @@
-package btbw.web.controller;
+package pl.btbw.web.controller;
 
-import btbw.web.dto.CardDto;
-import btbw.web.dto.Response;
-import btbw.web.dto.ResponseStatus;
-import btbw.web.repository.Card;
-import btbw.web.repository.CreditCardStorage;
-import btbw.web.service.ValidatorService;
+import pl.btbw.web.dto.CardDto;
+import pl.btbw.web.dto.Response;
+import pl.btbw.web.dto.ResponseStatus;
+import pl.btbw.web.repository.Card;
+import pl.btbw.web.repository.CreditCardStorage;
+import pl.btbw.web.service.ValidatorService;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;

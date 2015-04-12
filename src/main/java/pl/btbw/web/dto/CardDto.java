@@ -1,6 +1,6 @@
-package btbw.web.dto;
+package pl.btbw.web.dto;
 
-import btbw.core.validator.CreditCardExpiry;
+import pl.btbw.core.validator.CreditCardExpiry;
 import org.hibernate.validator.constraints.CreditCardNumber;
 import org.hibernate.validator.constraints.NotEmpty;
 
