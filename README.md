@@ -69,7 +69,7 @@
     - CardDto.java
     - CreditCardExpiry.java & CreditCardExpiryValidator.java
     
-  - How to peeper unit test base on Mockito
+  - How to prepare unit test base on Mockito
   
     - CardDtoValidationTest.java
   

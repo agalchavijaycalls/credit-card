@@ -21,7 +21,7 @@ public class ValidatorService<T> {
 
 		Set<ConstraintViolation<T>> validatorError = validator.validate(obj);
 
-		Map<String, String> errors = new HashMap<String, String>();
+		Map<String, String> errors = new HashMap<>();
 
 		for (ConstraintViolation<T> item : validatorError) {
 			errors.put(item.getPropertyPath().toString(), item.getMessage());
